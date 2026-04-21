@@ -14,7 +14,7 @@ export default function Register() {
     setError("");
 
     try {
-      await axios.post("http://localhost:5000/api/auth/register", {
+      await axios.post("https://campuscart-kmmd.onrender.com/api/auth/register", {
         email,
         password,
       });

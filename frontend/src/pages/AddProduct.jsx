@@ -15,7 +15,7 @@ export default function AddProduct() {
     setError("");
 
     try {
-      await axios.post("http://localhost:5000/api/products", {
+      await axios.post("https://campuscart-kmmd.onrender.com/api/products", {
         title,
         price: Number(price),
         image,
